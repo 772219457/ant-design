@@ -15,6 +15,26 @@ timeline: true
 
 ---
 
+## 3.13.3
+
+`2019-02-16`
+
+- 修复 Switch 禁用时的鼠标样式。[#14764](https://github.com/ant-design/ant-design/issues/14764)
+- 修复 Progress 显示成功状态错误的问题。[#14769](https://github.com/ant-design/ant-design/pull/14769) [@imhele](https://github.com/imhele)
+- 修复 Upload 中隐藏上传按钮后导致上传状态一直是 `uploading` 的问题。
+- 修复垂直 Steps 的自定义图标不居中的问题。[#14677](https://github.com/ant-design/ant-design/issues/14677)
+- 修复 Input.Search 不支持 `addonAfter` 的问题。
+- 修复 FormItem 在有错误提示时的布局问题。[#14772](https://github.com/ant-design/ant-design/issues/14772)
+- 修复 Card 在 `loading` 时，操作按钮会被遮住的问题。[#14832](https://github.com/ant-design/ant-design/issues/14832)
+- 回滚了 3.13.1 中对 List 组件在 IE 11 下样式问题的修复。[#14765](https://github.com/ant-design/ant-design/pull/14765) [@Shub1427](https://github.com/ant-design/ant-design/pull/14765)
+- Table
+  - 修复浮动元素错位的问题。[#14822](https://github.com/ant-design/ant-design/pull/14822) [@chiaweilee](https://github.com/ant-design/ant-design/pull/14822)
+  - 修复移除 `rowSelection` 属性时，className 不同步的问题。[#14759](https://github.com/ant-design/ant-design/issues/14759)
+  - 修复无数据时的边框显示问题。[#14834](https://github.com/ant-design/ant-design/issues/14834)
+  - 修复 `pagination` 为 `true` 是报错的问题。
+- 修复 TypeScript 类型
+  - [#14762](https://github.com/ant-design/ant-design/pull/14762) [@Frezc](https://github.com/Frezc)
+
 ## 3.13.2
 
 `2019-02-07`
